@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="378dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_screen_header" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Rhomie"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/MyAccountButton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:isScrollContainer="false"
+        android:onClick="goToMyAccount"
+        android:text="My Apartments"
+        app:icon="@drawable/apartment_icon"
+        app:iconGravity="textTop"
+        app:iconSize="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/ApartmentsButton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="15dp"
+        android:backgroundTint="@color/black"
+        android:onClick="goToApartmentsList"
+        android:text="Apartments"
+        app:icon="@drawable/homes_icon"
+        app:iconGravity="textTop"
+        app:iconSize="60dp"
+        app:layout_constraintStart_toEndOf="@+id/MyAccountButton"
+        app:layout_constraintTop_toTopOf="@+id/MyAccountButton" />
+
+    <Button
+        android:id="@+id/SettingButton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:onClick="goToSetting"
+        android:text="My Account"
+        app:icon="@drawable/my_account_icon"
+        app:iconGravity="textTop"
+        app:iconSize="60dp"
+        app:layout_constraintStart_toStartOf="@+id/MyAccountButton"
+        app:layout_constraintTop_toBottomOf="@+id/MyAccountButton"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/SupportButton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:onClick="goToUpdates"
+        android:text="My Requests"
+        app:icon="@drawable/message_icon"
+        app:iconGravity="textTop"
+        app:iconSize="60dp"
+        app:layout_constraintStart_toEndOf="@+id/SettingButton"
+        app:layout_constraintTop_toBottomOf="@+id/ApartmentsButton"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

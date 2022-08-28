@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rhomie">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rhomie">
+        <activity
+            android:name=".View.SwitcherRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.ChooseUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.UpdateItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.UpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.MyRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.ApprovalOrRejectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.MyItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.RequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.AddItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.MyAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.ApartmentListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

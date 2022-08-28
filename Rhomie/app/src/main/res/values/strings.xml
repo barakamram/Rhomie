@@ -1,0 +1,1284 @@
+<resources>
+    <string name="app_name">Rhomie</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="phone_number_array">
+        <item>050</item>
+        <item>052</item>
+        <item>053</item>
+        <item>054</item>
+        <item>057</item>
+    </string-array>
+    <string-array name="city_array">
+
+        <item>"אבו ג'ווייעד (שבט)" "ABU JUWEI'ID"</item>
+        <item>"אבו גוש" "ABU GHOSH"</item>
+        <item>"אבו סנאן" "ABU SINAN"</item>
+        <item>"אבו סריחאן (שבט)" "ABU SUREIHAN"</item>
+        <item>"אבו עבדון (שבט)" "ABU  ABDUN"</item>
+        <item>"אבו עמאר (שבט)" "ABU  AMMAR"</item>
+        <item>"אבו עמרה (שבט)" "ABU  AMRE"</item>
+        <item>"אבו קורינאת (יישוב)" "ABU QUREINAT"</item>
+        <item>"אבו קורינאת (שבט)" "ABU QUREINAT"</item>
+        <item>"אבו רובייעה (שבט)" "ABU RUBEI'A"</item>
+        <item>"אבו רוקייק (שבט)" "ABU RUQAYYEQ"</item>
+        <item>"אבו תלול" "ABU TULUL"</item>
+        <item>"אבטין" "IBTIN"</item>
+        <item>"אבטליון" "AVTALYON"</item>
+        <item>"אביאל" "AVI'EL"</item>
+        <item>"אביבים" "AVIVIM"</item>
+        <item>"אביגדור" "AVIGEDOR"</item>
+        <item>"אביחיל" "AVIHAYIL"</item>
+        <item>"אביטל" "AVITAL"</item>
+        <item>"אביעזר" "AVI'EZER"</item>
+        <item>"אבירים" "ABBIRIM"</item>
+        <item>"אבן יהודה" "EVEN YEHUDA"</item>
+        <item>"אבן מנחם" "EVEN MENAHEM"</item>
+        <item>"אבן ספיר" "EVEN SAPPIR"</item>
+        <item>"אבן שמואל" "EVEN SHEMU'EL"</item>
+        <item>"אבני איתן" "AVNE ETAN"</item>
+        <item>"אבני חפץ" "AVNE HEFEZ"</item>
+        <item>"אבנת" "AVENAT"</item>
+        <item>"אבשלום" "AVSHALOM"</item>
+        <item>"אדורה" "ADORA"</item>
+        <item>"אדירים" "ADDIRIM"</item>
+        <item>"אדמית" "ADAMIT"</item>
+        <item>"אדרת" "ADDERET"</item>
+        <item>"אודים" "UDIM"</item>
+        <item>"אודם" "ODEM"</item>
+        <item>"אוהד" "OHAD"</item>
+        <item>"אום אל-פחם" "UMM AL-FAHM"</item>
+        <item>"אום אל-קוטוף" "UMM AL-QUTUF"</item>
+        <item>"אום בטין" "UMM BATIN"</item>
+        <item>"אומן" "OMEN"</item>
+        <item>"אומץ" "OMEZ"</item>
+        <item>"אופקים" "OFAQIM"</item>
+        <item>"אור הגנוז" "OR HAGANUZ"</item>
+        <item>"אור הנר" "OR HANER"</item>
+        <item>"אור יהודה" "OR YEHUDA"</item>
+        <item>"אור עקיבא" "OR AQIVA"</item>
+        <item>"אורה" "ORA"</item>
+        <item>"אורון" "ORON"</item>
+        <item>"אורות" "OROT"</item>
+        <item>"אורטל" "ORTAL"</item>
+        <item>"אורים" "URIM"</item>
+        <item>"אורנים" "ORANIM"</item>
+        <item>"אורנית" "ORANIT"</item>
+        <item>"אושה" "USHA"</item>
+        <item>"אזור" "AZOR"</item>
+        <item>"אחווה" "AHAWA"</item>
+        <item>"אחוזם" "AHUZZAM"</item>
+        <item>"אחוזת ברק" "AHUZZAT BARAQ"</item>
+        <item>"אחיהוד" "AHIHUD"</item>
+        <item>"אחיטוב" "AHITUV"</item>
+        <item>"אחיסמך" "AHISAMAKH"</item>
+        <item>"אחיעזר" "AHI'EZER"</item>
+        <item>"אטרש (שבט)" "ATRASH"</item>
+        <item>"איבים" "IBBIM"</item>
+        <item>"אייל" "EYAL"</item>
+        <item>"איילת השחר" "AYYELET HASHAHAR"</item>
+        <item>"אילון" "ELON"</item>
+        <item>"אילות" "ELOT"</item>
+        <item>"אילנייה" "ILANIYYA"</item>
+        <item>"אילת" "EILAT"</item>
+        <item>"אירוס" "IRUS"</item>
+        <item>"איתמר" "ITAMAR"</item>
+        <item>"איתן" "ETAN"</item>
+        <item>"איתנים" "ETANIM"</item>
+        <item>"אכסאל" "IKSAL"</item>
+        <item>"אל -עזי" "AL-AZY"</item>
+        <item>"אל -עריאן" "AL-ARYAN"</item>
+        <item>"אל -רום" "EL-ROM"</item>
+        <item>"אל סייד" "AL SAYYID"</item>
+        <item>"אלומה" "ALUMMA"</item>
+        <item>"אלומות" "ALUMMOT"</item>
+        <item>"אלון הגליל" "ALLON HAGALIL"</item>
+        <item>"אלון מורה" "ELON MORE"</item>
+        <item>"אלון שבות" "ALLON SHEVUT"</item>
+        <item>"אלוני אבא" "ALLONE ABBA"</item>
+        <item>"אלוני הבשן" "ALLONE HABASHAN"</item>
+        <item>"אלוני יצחק" "ALLONE YIZHAQ"</item>
+        <item>"אלונים" "ALLONIM"</item>
+        <item>"אלי-עד" "ELI-AD"</item>
+        <item>"אליאב" "ELIAV"</item>
+        <item>"אליכין" "ELYAKHIN"</item>
+        <item>"אליפז" "ELIFAZ"</item>
+        <item>"אליפלט" "ELIFELET"</item>
+        <item>"אליקים" "ELYAQIM"</item>
+        <item>"אלישיב" "ELYASHIV"</item>
+        <item>"אלישמע" "ELISHAMA"</item>
+        <item>"אלמגור" "ALMAGOR"</item>
+        <item>"אלמוג" "ALMOG"</item>
+        <item>"אלעד" "EL'AD"</item>
+        <item>"אלעזר" "EL'AZAR"</item>
+        <item>"אלפי מנשה" "ALFE MENASHE"</item>
+        <item>"אלקוש" "ELQOSH"</item>
+        <item>"אלקנה" "ELQANA"</item>
+        <item>"אמונים" "EMUNIM"</item>
+        <item>"אמירים" "AMIRIM"</item>
+        <item>"אמנון" "AMNUN"</item>
+        <item>"אמציה" "AMAZYA"</item>
+        <item>"אניעם" "ANI'AM"</item>
+        <item>"אסד (שבט)" "ASAD"</item>
+        <item>"אספר" "ASFAR"</item>
+        <item>"אעבלין" "I'BILLIN"</item>
+        <item>"אעצם (שבט)" "A'SAM"</item>
+        <item>"אפיניש (שבט)" "AFEINISH"</item>
+        <item>"אפיק" "AFIQ"</item>
+        <item>"אפיקים" "AFIQIM"</item>
+        <item>"אפק" "AFEQ"</item>
+        <item>"אפרת" "EFRAT"</item>
+        <item>"ארבל" "ARBEL"</item>
+        <item>"ארגמן" "ARGAMAN"</item>
+        <item>"ארז" "EREZ"</item>
+        <item>"אריאל" "ARI'EL"</item>
+        <item>"ארסוף" "ARSUF"</item>
+        <item>"אשבול" "ESHBOL"</item>
+        <item>"אשבל" "ESHBAL"</item>
+        <item>"אשדוד" "ASHDOD"</item>
+        <item>"אשדות יעקב (איחוד)" "ASHDOT YA'AQOV(IHUD)"</item>
+        <item>"אשדות יעקב (מאוחד)" "ASHDOT YA'AQOV(ME'UHAD)"</item>
+        <item>"אשחר" "ESHHAR"</item>
+        <item>"אשכולות" "ESHKOLOT"</item>
+        <item>"אשל הנשיא" "ESHEL HANASI"</item>
+        <item>"אשלים" "ASHALIM"</item>
+        <item>"אשקלון" "ASHQELON"</item>
+        <item>"אשרת" "ASHERAT"</item>
+        <item>"אשתאול" "ESHTA'OL"</item>
+        <item>"באקה אל-גרביה" "BAQA AL-GHARBIYYE"</item>
+        <item>"באר אורה" "BEER ORA"</item>
+        <item>"באר גנים" "BEER GANNIM"</item>
+        <item>"באר טוביה" "BEER TOVIYYA"</item>
+        <item>"באר יעקב" "BEER YA'AQOV"</item>
+        <item>"באר מילכה" "BEER MILKA"</item>
+        <item>"באר שבע" "BEER SHEVA"</item>
+        <item>"בארות יצחק" "BEEROT YIZHAQ"</item>
+        <item>"בארותיים" "BEEROTAYIM"</item>
+        <item>"בארי" "BEERI"</item>
+        <item>"בוסתן הגליל" "BUSTAN HAGALIL"</item>
+        <item>"בועיינה-נוג'ידאת" "BU'EINE-NUJEIDAT"</item>
+        <item>"בוקעאתא" "BUQ'ATA"</item>
+        <item>"בורגתה" "BURGETA"</item>
+        <item>"בחן" "BAHAN"</item>
+        <item>"בטחה" "BITHA"</item>
+        <item>"ביצרון" "BIZZARON"</item>
+        <item>"ביר אל-מכסור" "BIR EL-MAKSUR"</item>
+        <item>"ביר הדאג'" "BIR HADAGE"</item>
+        <item>"בירייה" "BIRIYYA"</item>
+        <item>"בית אורן" "BET OREN"</item>
+        <item>"בית אל" "BET EL"</item>
+        <item>"בית אלעזרי" "BET EL'AZARI"</item>
+        <item>"בית אלפא" "BET ALFA"</item>
+        <item>"בית אריה" "BET ARYE"</item>
+        <item>"בית ברל" "BET BERL"</item>
+        <item>"בית ג'ן" "BEIT JANN"</item>
+        <item>"בית גוברין" "BET GUVRIN"</item>
+        <item>"בית גמליאל" "BET GAMLI'EL"</item>
+        <item>"בית דגן" "BET DAGAN"</item>
+        <item>"בית הגדי" "BET HAGADDI"</item>
+        <item>"בית הלוי" "BET HALEWI"</item>
+        <item>"בית הלל" "BET HILLEL"</item>
+        <item>"בית העמק" "BET HAEMEQ"</item>
+        <item>"בית הערבה" "BET HAARAVA"</item>
+        <item>"בית השיטה" "BET HASHITTA"</item>
+        <item>"בית זיד" "BET ZEID"</item>
+        <item>"בית זית" "BET ZAYIT"</item>
+        <item>"בית זרע" "BET ZERA"</item>
+        <item>"בית חורון" "BET HORON"</item>
+        <item>"בית חירות" "BET HERUT"</item>
+        <item>"בית חלקיה" "BET HILQIYYA"</item>
+        <item>"בית חנן" "BET HANAN"</item>
+        <item>"בית חנניה" "BET HANANYA"</item>
+        <item>"בית חשמונאי" "BET HASHMONAY"</item>
+        <item>"בית יהושע" "BET YEHOSHUA"</item>
+        <item>"בית יוסף" "BET YOSEF"</item>
+        <item>"בית ינאי" "BET YANNAY"</item>
+        <item>"בית יצחק-שער חפר" "BET YIZHAQ-SH. HEFER"</item>
+        <item>"בית לחם הגלילית" "BET LEHEM HAGELILIT"</item>
+        <item>"בית מאיר" "BET ME'IR"</item>
+        <item>"בית נחמיה" "BET NEHEMYA"</item>
+        <item>"בית ניר" "BET NIR"</item>
+        <item>"בית נקופה" "BET NEQOFA"</item>
+        <item>"בית עובד" "BET OVED"</item>
+        <item>"בית עוזיאל" "BET UZZI'EL"</item>
+        <item>"בית עזרא" "BET EZRA"</item>
+        <item>"בית עריף" "BET ARIF"</item>
+        <item>"בית צבי" "BET ZEVI"</item>
+        <item>"בית קמה" "BET QAMA"</item>
+        <item>"בית קשת" "BET QESHET"</item>
+        <item>"בית רבן" "BET RABBAN"</item>
+        <item>"בית רימון" "BET RIMMON"</item>
+        <item>"בית שאן" "BET SHE'AN"</item>
+        <item>"בית שמש" "BET SHEMESH"</item>
+        <item>"בית שערים" "BET SHE'ARIM"</item>
+        <item>"בית שקמה" "BET SHIQMA"</item>
+        <item>"ביתן אהרן" "BITAN AHARON"</item>
+        <item>"ביתר עילית" "BETAR ILLIT"</item>
+        <item>"בלפוריה" "BALFURYA"</item>
+        <item>"בן זכאי" "BEN ZAKKAY"</item>
+        <item>"בן עמי" "BEN AMMI"</item>
+        <item>"בן שמן (כפר נוער)" "BEN SHEMEN(K.NO'AR)"</item>
+        <item>"בן שמן (מושב)" "BEN SHEMEN (MOSHAV)"</item>
+        <item>"בני ברק" "BNEI BRAK"</item>
+        <item>"בני דקלים" "BNE DEQALIM"</item>
+        <item>"בני דרום" "BENE DAROM"</item>
+        <item>"בני דרור" "BENE DEROR"</item>
+        <item>"בני יהודה" "BENE YEHUDA"</item>
+        <item>"בני נצרים" "BNE NETSARIM"</item>
+        <item>"בני עטרות" "BENE ATAROT"</item>
+        <item>"בני עי" "BENE AYISH"</item>
+        <item>"בני ציון" "BENE ZIYYON"</item>
+        <item>"בני ראם" "BENE RE'EM"</item>
+        <item>"בניה" "BENAYA"</item>
+        <item>"בנימינה-גבעת עדה*" "BINYAMINA-GIV'AT ADA"</item>
+        <item>"בסמ" "BASMA"</item>
+        <item>"בסמת טבעון" "BASMAT TAB'UN"</item>
+        <item>"בענה" "BI'NE"</item>
+        <item>"בצרה" "BAZRA"</item>
+        <item>"בצת" "BEZET"</item>
+        <item>"בקוע" "BEQOA"</item>
+        <item>"בקעות" "BEQA'OT"</item>
+        <item>"בר גיורא" "BAR GIYYORA"</item>
+        <item>"בר יוחאי" "BAR YOHAY"</item>
+        <item>"ברוכין" "BRUKHIN"</item>
+        <item>"ברור חיל" "BEROR HAYIL"</item>
+        <item>"ברוש" "BEROSH"</item>
+        <item>"ברכה" "BERAKHA"</item>
+        <item>"ברכיה" "BEREKHYA"</item>
+        <item>"ברעם" "BAR'AM"</item>
+        <item>"ברק" "BARAQ"</item>
+        <item>"ברקאי" "BARQAY"</item>
+        <item>"ברקן" "BARQAN"</item>
+        <item>"ברקת" "BAREQET"</item>
+        <item>"בת הדר" "BAT HADAR"</item>
+        <item>"בת חן" "BAT HEN"</item>
+        <item>"בת חפר" "BAT HEFER"</item>
+        <item>"בת ים" "BAT YAM"</item>
+        <item>"בת עין" "BAT AYIN"</item>
+        <item>"בת שלמה" "BAT SHELOMO"</item>
+        <item>"ג'דיידה-מכר" "JUDEIDE-MAKER"</item>
+        <item>"ג'ולס" "JULIS"</item>
+        <item>"ג'לג'וליה" "JALJULYE"</item>
+        <item>"ג'נאביב (שבט)" "JUNNABIB"</item>
+        <item>"ג'סר א-זרקא" "JISR AZ-ZARQA"</item>
+        <item>"ג'ש (גוש חלב)" "JISH(GUSH HALAV)"</item>
+        <item>"ג'ת" "JATT"</item>
+        <item>"גאולי תימן" "GE'ULE TEMAN"</item>
+        <item>"גאולים" "GE'ULIM"</item>
+        <item>"גאליה" "GE'ALYA"</item>
+        <item>"גבולות" "GEVULOT"</item>
+        <item>"גבים" "GEVIM"</item>
+        <item>"גבע" "GEVA"</item>
+        <item>"גבע בנימין" "GEVA BINYAMIN"</item>
+        <item>"גבע כרמל" "GEVA  KARMEL"</item>
+        <item>"גבעולים" "GIV'OLIM"</item>
+        <item>"גבעון החדשה" "GIV'ON HAHADASHA"</item>
+        <item>"גבעות בר" "GEVA'OT BAR"</item>
+        <item>"גבעת אבני" "GIV'AT AVNI"</item>
+        <item>"גבעת אלה" "GIV'AT ELA"</item>
+        <item>"גבעת ברנר" "GIV'AT BRENNER"</item>
+        <item>"גבעת השלושה" "GIV'AT HASHELOSHA"</item>
+        <item>"גבעת זאב" "GIV'AT ZE'EV"</item>
+        <item>"גבעת ח" "GIV'AT HEN"</item>
+        <item>"גבעת חיים (איחוד)" "GIV'AT HAYYIM (IHUD)"</item>
+        <item>"גבעת חיים (מאוחד)" "GIV'AT HAYYIM(ME'UHAD)"</item>
+        <item>"גבעת יואב" "GIV'AT YO'AV"</item>
+        <item>"גבעת יערים" "GIV'AT YE'ARIM"</item>
+        <item>"גבעת ישעיהו" "GIV'AT YESHA'YAHU"</item>
+        <item>"גבעת כ" "GIV'AT KOAH"</item>
+        <item>"גבעת ניל" "GIV'AT NILI"</item>
+        <item>"גבעת עוז" "GIV'AT OZ"</item>
+        <item>"גבעת שמואל" "GIV'AT SHEMU'EL"</item>
+        <item>"גבעת שמש" "GIV'AT SHEMESH"</item>
+        <item>"גבעת שפירא" "GIV'AT SHAPPIRA"</item>
+        <item>"גבעתי" "GIV'ATI"</item>
+        <item>"גבעתיים" "GIV'ATAYIM"</item>
+        <item>"גברעם" "GEVAR'AM"</item>
+        <item>"גבת" "GEVAT"</item>
+        <item>"גדות" "GADOT"</item>
+        <item>"גדיש" "GADISH"</item>
+        <item>"גדעונה" "GID'ONA"</item>
+        <item>"גדרה" "GEDERA"</item>
+        <item>"גונן" "GONEN"</item>
+        <item>"גורן" "GOREN"</item>
+        <item>"גורנות הגליל" "GORNOT HAGALIL"</item>
+        <item>"גזית" "GAZIT"</item>
+        <item>"גזר" "GEZER"</item>
+        <item>"גיאה" "GE'A"</item>
+        <item>"גיבתון" "GIBBETON"</item>
+        <item>"גיזו" "GIZO"</item>
+        <item>"גילון" "GILON"</item>
+        <item>"גילת" "GILAT"</item>
+        <item>"גינוסר" "GINNOSAR"</item>
+        <item>"גיניגר" "GINNEGAR"</item>
+        <item>"גינתון" "GINNATON"</item>
+        <item>"גיתה" "GITTA"</item>
+        <item>"גיתית" "GITTIT"</item>
+        <item>"גלאון" "GAL'ON"</item>
+        <item>"גלגל" "GILGAL"</item>
+        <item>"גליל ים" "GELIL YAM"</item>
+        <item>"גלעד (אבן יצחק)" "GAL'ED (EVEN YIZHAQ)"</item>
+        <item>"גמזו" "GIMZO"</item>
+        <item>"גן הדרום" "GAN HADAROM"</item>
+        <item>"גן השומרון" "GAN HASHOMERON"</item>
+        <item>"גן חיים" "GAN HAYYIM"</item>
+        <item>"גן יאשיה" "GAN YOSHIYYA"</item>
+        <item>"גן יבנה" "GAN YAVNE"</item>
+        <item>"גן נר" "GAN NER"</item>
+        <item>"גן שורק" "GAN SOREQ"</item>
+        <item>"גן שלמה" "GAN SHELOMO"</item>
+        <item>"גן שמואל" "GAN SHEMU'EL"</item>
+        <item>"גנות" "GANNOT"</item>
+        <item>"גנות הדר" "GANNOT HADAR"</item>
+        <item>"גני הדר" "GANNE HADAR"</item>
+        <item>"גני טל" "GANNE TAL"</item>
+        <item>"גני יוחנן" "GANNE YOHANAN"</item>
+        <item>"גני עם" "GANNE AM"</item>
+        <item>"גני תקווה" "GANNE TIQWA"</item>
+        <item>"געש" "GA'ASH"</item>
+        <item>"געתון" "GA'TON"</item>
+        <item>"גפן" "GEFEN"</item>
+        <item>"גרופית" "GEROFIT"</item>
+        <item>"גשור" "GESHUR"</item>
+        <item>"גשר" "GESHER"</item>
+        <item>"גשר הזיו" "GESHER HAZIW"</item>
+        <item>"גת (קיבוץ)" "GAT(QIBBUZ)"</item>
+        <item>"גת רימון" "GAT RIMMON"</item>
+        <item>"דאלית אל-כרמל" "DALIYAT AL-KARMEL"</item>
+        <item>"דבורה" "DEVORA"</item>
+        <item>"דבורייה" "DABURIYYA"</item>
+        <item>"דבירה" "DEVIRA"</item>
+        <item>"דברת" "DAVERAT"</item>
+        <item>"דגניה א'" "DEGANYA ALEF"</item>
+        <item>"דגניה ב'" "DEGANYA BET"</item>
+        <item>"דוב" "DOVEV"</item>
+        <item>"דולב" "DOLEV"</item>
+        <item>"דור" "DOR"</item>
+        <item>"דורות" "DOROT"</item>
+        <item>"דחי" "DAHI"</item>
+        <item>"דייר אל-אסד" "DEIR AL-ASAD"</item>
+        <item>"דייר חנא" "DEIR HANNA"</item>
+        <item>"דייר ראפאת" "DEIR RAFAT"</item>
+        <item>"דימונה" "DIMONA"</item>
+        <item>"דישון" "DISHON"</item>
+        <item>"דלייה" "DALIYYA"</item>
+        <item>"דלתון" "DALTON"</item>
+        <item>"דמיידה" "DEMEIDE"</item>
+        <item>"דן" "DAN"</item>
+        <item>"דפנה" "DAFNA"</item>
+        <item>"דקל" "DEQEL"</item>
+        <item>"דריג'את" "DERIG'AT"</item>
+        <item>"האון" "HAON"</item>
+        <item>"הבונים" "HABONIM"</item>
+        <item>"הגושרים" "HAGOSHERIM"</item>
+        <item>"הדר עם" "HADAR AM"</item>
+        <item>"הוד השרון" "HOD HASHARON"</item>
+        <item>"הודיות" "HODAYOT"</item>
+        <item>"הודייה" "HODIYYA"</item>
+        <item>"הוואשלה (שבט)" "HAWASHLA"</item>
+        <item>"הוזייל (שבט)" "HUZAYYEL"</item>
+        <item>"הושעיה" "HOSHA'AYA"</item>
+        <item>"הזורע" "HAZOREA"</item>
+        <item>"הזורעים" "HAZORE'IM"</item>
+        <item>"החותרים" "HAHOTERIM"</item>
+        <item>"היוגב" "HAYOGEV"</item>
+        <item>"הילה" "HILLA"</item>
+        <item>"המעפיל" "HAMA'PIL"</item>
+        <item>"הסוללים" "HASOLELIM"</item>
+        <item>"העוגן" "HAOGEN"</item>
+        <item>"הר אדר" "HAR ADAR"</item>
+        <item>"הר גילה" "HAR GILLO"</item>
+        <item>"הר עמשא" "HAR AMASA"</item>
+        <item>"הראל" "HAR'EL"</item>
+        <item>"הרדוף" "HARDUF"</item>
+        <item>"הרצלייה" "HERZLIYA"</item>
+        <item>"הררית" "HARARIT"</item>
+        <item>"ורד יריחו" "WERED YERIHO"</item>
+        <item>"ורדון" "WARDON"</item>
+        <item>"זבארגה (שבט)" "ZABARGA"</item>
+        <item>"זבדיאל" "ZAVDI'EL"</item>
+        <item>"זוהר" "ZOHAR"</item>
+        <item>"זיקים" "ZIQIM"</item>
+        <item>"זיתן" "ZETAN"</item>
+        <item>"זכרון יעקב" "ZIKHRON YA'AQOV"</item>
+        <item>"זכריה" "ZEKHARYA"</item>
+        <item>"זמר" "ZEMER"</item>
+        <item>"זמרת" "ZIMRAT"</item>
+        <item>"זנוח" "ZANOAH"</item>
+        <item>"זרועה" "ZERU'A"</item>
+        <item>"זרזיר" "ZARZIR"</item>
+        <item>"זרחיה" "ZERAHYA"</item>
+        <item>"ח'ואלד" "KHAWALED"</item>
+        <item>"ח'ואלד (שבט)" "KHAWALED"</item>
+        <item>"חבצלת השרון" "HAVAZZELET HASHARON"</item>
+        <item>"חבר" "HEVER"</item>
+        <item>"חגור" "HAGOR"</item>
+        <item>"חגי" "HAGGAY"</item>
+        <item>"חגלה" "HOGLA"</item>
+        <item>"חד-נס" "HAD-NES"</item>
+        <item>"חדיד" "HADID"</item>
+        <item>"חדרה" "HADERA"</item>
+        <item>"חוג'ייראת (ד'הרה) (שבט)" "HUJEIRAT (DAHRA)"</item>
+        <item>"חולדה" "HULDA"</item>
+        <item>"חולון" "HOLON"</item>
+        <item>"חולית" "HOLIT"</item>
+        <item>"חולתה" "HULATA"</item>
+        <item>"חוסן" "HOSEN"</item>
+        <item>"חוסנייה" "HUSSNIYYA"</item>
+        <item>"חופית" "HOFIT"</item>
+        <item>"חוקוק" "HUQOQ"</item>
+        <item>"חורה" "HURA"</item>
+        <item>"חורפיש" "HURFEISH"</item>
+        <item>"חורשים" "HORESHIM"</item>
+        <item>"חזון" "HAZON"</item>
+        <item>"חיבת ציון" "HIBBAT ZIYYON"</item>
+        <item>"חיננית" "HINNANIT"</item>
+        <item>"חיפה" "HAIFA"</item>
+        <item>"חירות" "HERUT"</item>
+        <item>"חלוץ" "HALUZ"</item>
+        <item>"חלמיש" "HALLAMISH"</item>
+        <item>"חלץ" "HELEZ"</item>
+        <item>"חמאם" "HAMAM"</item>
+        <item>"חמד" "HEMED"</item>
+        <item>"חמדיה" "HAMADYA"</item>
+        <item>"חמדת" "HEMDAT"</item>
+        <item>"חמרה" "HAMRA"</item>
+        <item>"חניאל" "HANNI'EL"</item>
+        <item>"חניתה" "HANITA"</item>
+        <item>"חנתון" "HANNATON"</item>
+        <item>"חספין" "HASPIN"</item>
+        <item>"חפץ חיים" "HAFEZ HAYYIM"</item>
+        <item>"חפצי-בה" "HEFZI-BAH"</item>
+        <item>"חצב" "HAZAV"</item>
+        <item>"חצבה" "HAZEVA"</item>
+        <item>"חצור-אשדוד" "HAZOR-ASHDOD"</item>
+        <item>"חצור הגלילית" "HAZOR HAGELILIT"</item>
+        <item>"חצרים" "HAZERIM"</item>
+        <item>"חרב לאת" "HEREV LE'ET"</item>
+        <item>"חרוצים" "HARUZIM"</item>
+        <item>"חריש" "HARISH"</item>
+        <item>"חרמש" "HERMESH"</item>
+        <item>"חרשים" "HARASHIM"</item>
+        <item>"חשמונאים" "HASHMONA'IM"</item>
+        <item>"טבריה" "TIBERIAS"</item>
+        <item>"טובא-זנגרייה" "TUBA-ZANGARIYYE"</item>
+        <item>"טורעאן" "TUR'AN"</item>
+        <item>"טייבה" "TAYIBE"</item>
+        <item>"טייבה (בעמק)" "TAYIBE(BAEMEQ)"</item>
+        <item>"טירה" "TIRE"</item>
+        <item>"טירת יהודה" "TIRAT YEHUDA"</item>
+        <item>"טירת כרמל" "TIRAT KARMEL"</item>
+        <item>"טירת צבי" "TIRAT ZEVI"</item>
+        <item>"טל-אל" "TAL-EL"</item>
+        <item>"טל שחר" "TAL SHAHAR"</item>
+        <item>"טללים" "TELALIM"</item>
+        <item>"טלמון" "TALMON"</item>
+        <item>"טמרה" "TAMRA"</item>
+        <item>"טמרה (יזרעאל)" "TAMRA (YIZRE'EL)"</item>
+        <item>"טנא" "TENE"</item>
+        <item>"טפחות" "TEFAHOT"</item>
+        <item>"יאנוח-ג'ת" "YANUH-JAT"</item>
+        <item>"יבול" "YEVUL"</item>
+        <item>"יבנאל" "YAVNE'EL"</item>
+        <item>"יבנה" "YAVNE"</item>
+        <item>"יגור" "YAGUR"</item>
+        <item>"יגל" "YAGEL"</item>
+        <item>"יד בנימין" "YAD BINYAMIN"</item>
+        <item>"יד השמונה" "YAD HASHEMONA"</item>
+        <item>"יד חנה" "YAD HANNA"</item>
+        <item>"יד מרדכי" "YAD MORDEKHAY"</item>
+        <item>"יד נתן" "YAD NATAN"</item>
+        <item>"יד רמב" "YAD RAMBAM"</item>
+        <item>"ידידה" "YEDIDA"</item>
+        <item>"יהוד" "YEHUD"</item>
+        <item>"יהל" "YAHEL"</item>
+        <item>"יובל" "YUVAL"</item>
+        <item>"יובלים" "YUVALLIM"</item>
+        <item>"יודפת" "YODEFAT"</item>
+        <item>"יונתן" "YONATAN"</item>
+        <item>"יושיביה" "YOSHIVYA"</item>
+        <item>"יזרעאל" "YIZRE'EL"</item>
+        <item>"יחיעם" "YEHI'AM"</item>
+        <item>"יטבתה" "YOTVATA"</item>
+        <item>"ייט" "YITAV"</item>
+        <item>"יכיני" "YAKHINI"</item>
+        <item>"ינוב" "YANUV"</item>
+        <item>"ינון" "YINNON"</item>
+        <item>"יסוד המעלה" "YESUD HAMA'ALA"</item>
+        <item>"יסודות" "YESODOT"</item>
+        <item>"יסעור" "YAS'UR"</item>
+        <item>"יעד" "YA'AD"</item>
+        <item>"יעל" "YA'EL"</item>
+        <item>"יעף" "YE'AF"</item>
+        <item>"יערה" "YA'ARA"</item>
+        <item>"יפיע" "YAFI"</item>
+        <item>"יפית" "YAFIT"</item>
+        <item>"יפעת" "YIF'AT"</item>
+        <item>"יפתח" "YIFTAH"</item>
+        <item>"יצהר" "YIZHAR"</item>
+        <item>"יציץ" "YAZIZ"</item>
+        <item>"יקום" "YAQUM"</item>
+        <item>"יקיר" "YAQIR"</item>
+        <item>"יקנעם (מושבה)" "YOQNE'AM(MOSHAVA)"</item>
+        <item>"יקנעם עילית" "YOQNE'AM ILLIT"</item>
+        <item>"יראון" "YIR'ON"</item>
+        <item>"ירדנה" "YARDENA"</item>
+        <item>"ירוחם" "YEROHAM"</item>
+        <item>"ירושלים" "JERUSALEM"</item>
+        <item>"ירחיב" "YARHIV"</item>
+        <item>"ירכא" "YIRKA"</item>
+        <item>"ירקונה" "YARQONA"</item>
+        <item>"ישע" "YESHA"</item>
+        <item>"ישעי" "YISH'I"</item>
+        <item>"ישרש" "YASHRESH"</item>
+        <item>"יתד" "YATED"</item>
+        <item>"כאבול" "KABUL"</item>
+        <item>"כאוכב אבו אל-היג'א" "KAOKAB ABU AL-HIJA"</item>
+        <item>"כברי" "KABRI"</item>
+        <item>"כדורי" "KADOORIE"</item>
+        <item>"כדיתה" "KADDITA"</item>
+        <item>"כוכב השחר" "KOKHAV HASHAHAR"</item>
+        <item>"כוכב יאיר" "KOKHAV YA'IR"</item>
+        <item>"כוכב יעקב" "KOKHAV YA'AQOV"</item>
+        <item>"כוכב מיכאל" "KOKHAV MIKHA'EL"</item>
+        <item>"כורזים" "KORAZIM"</item>
+        <item>"כחל" "KAHAL"</item>
+        <item>"כחלה" "KOCHLEA"</item>
+        <item>"כיסופים" "KISSUFIM"</item>
+        <item>"כישור" "KISHOR"</item>
+        <item>"כליל" "KELIL"</item>
+        <item>"כלנית" "KALLANIT"</item>
+        <item>"כמאנה" "KAMANE"</item>
+        <item>"כמהין" "KEMEHIN"</item>
+        <item>"כמון" "KAMMON"</item>
+        <item>"כנות" "KANNOT"</item>
+        <item>"כנף" "KANAF"</item>
+        <item>"כנרת (מושבה)" "KINNERET(MOSHAVA)"</item>
+        <item>"כנרת (קבוצה)" "KINNERET(QEVUZA)"</item>
+        <item>"כסיפה" "KUSEIFE"</item>
+        <item>"כסלון" "KESALON"</item>
+        <item>"כסרא-סמיע" "KISRA-SUMEI"</item>
+        <item>"כעביה-טבאש-חג'אג'רה" "KA'ABIYYE-TABBASH-HAJAJRE"</item>
+        <item>"כפר אביב" "KEFAR AVIV"</item>
+        <item>"כפר אדומים" "KEFAR ADUMMIM"</item>
+        <item>"כפר אוריה" "KEFAR URIYYA"</item>
+        <item>"כפר אחים" "KEFAR AHIM"</item>
+        <item>"כפר ביאליק" "KEFAR BIALIK"</item>
+        <item>"כפר ביל" "KEFAR BILU"</item>
+        <item>"כפר בלום" "KEFAR BLUM"</item>
+        <item>"כפר בן נון" "KEFAR BIN NUN"</item>
+        <item>"כפר ברא" "KAFAR BARA"</item>
+        <item>"כפר ברוך" "KEFAR BARUKH"</item>
+        <item>"כפר גדעון" "KEFAR GID'ON"</item>
+        <item>"כפר גלים" "KEFAR GALLIM"</item>
+        <item>"כפר גליקסון" "KEFAR GLIKSON"</item>
+        <item>"כפר גלעדי" "KEFAR GIL'ADI"</item>
+        <item>"כפר דניאל" "KEFAR DANIYYEL"</item>
+        <item>"כפר האורנים" "KEFAR HAORANIM"</item>
+        <item>"כפר החורש" "KEFAR HAHORESH"</item>
+        <item>"כפר המכבי" "KEFAR HAMAKKABBI"</item>
+        <item>"כפר הנגיד" "KEFAR HANAGID"</item>
+        <item>"כפר הנוער הדתי" "KEFAR HANO'AR HADATI"</item>
+        <item>"כפר הנשיא" "KEFAR HANASI"</item>
+        <item>"כפר הס" "KEFAR HESS"</item>
+        <item>"כפר הרא" "KEFAR HARO'E"</item>
+        <item>"כפר הרי" "KEFAR HARIF"</item>
+        <item>"כפר ויתקין" "KEFAR VITKIN"</item>
+        <item>"כפר ורבורג" "KEFAR WARBURG"</item>
+        <item>"כפר ורדים" "KEFAR WERADIM"</item>
+        <item>"כפר זוהרים" "KEFAR ZOHARIM"</item>
+        <item>"כפר זיתים" "KEFAR ZETIM"</item>
+        <item>"כפר חב" "KEFAR HABAD"</item>
+        <item>"כפר חושן" "KEFAR HOSHEN"</item>
+        <item>"כפר חיטים" "KEFAR HITTIM"</item>
+        <item>"כפר חיים" "KEFAR HAYYIM"</item>
+        <item>"כפר חנניה" "KEFAR HANANYA"</item>
+        <item>"כפר חסידים א'" "KEFAR HASIDIM ALEF"</item>
+        <item>"כפר חסידים ב'" "KEFAR HASIDIM BET"</item>
+        <item>"כפר חרוב" "KEFAR HARUV"</item>
+        <item>"כפר טרומן" "KEFAR TRUMAN"</item>
+        <item>"כפר יאסיף" "KAFAR YASIF"</item>
+        <item>"כפר ידידיה" "KEFAR YEDIDYA"</item>
+        <item>"כפר יהושע" "KEFAR YEHOSHUA"</item>
+        <item>"כפר יונה" "KEFAR YONA"</item>
+        <item>"כפר יחזקאל" "KEFAR YEHEZQEL"</item>
+        <item>"כפר יעבץ" "KEFAR YA'BEZ"</item>
+        <item>"כפר כמא" "KAFAR KAMA"</item>
+        <item>"כפר כנא" "KAFAR KANNA"</item>
+        <item>"כפר מונש" "KEFAR MONASH"</item>
+        <item>"כפר מימון" "KEFAR MAYMON"</item>
+        <item>"כפר מל" "KEFAR MALAL"</item>
+        <item>"כפר מנדא" "KAFAR MANDA"</item>
+        <item>"כפר מנחם" "KEFAR MENAHEM"</item>
+        <item>"כפר מסריק" "KEFAR MASARYK"</item>
+        <item>"כפר מצר" "KAFAR MISR"</item>
+        <item>"כפר מרדכי" "KEFAR MORDEKHAY"</item>
+        <item>"כפר נטר" "KEFAR NETTER"</item>
+        <item>"כפר סאלד" "KEFAR SZOLD"</item>
+        <item>"כפר סבא" "KFAR SABA"</item>
+        <item>"כפר סילבר" "KEFAR SILVER"</item>
+        <item>"כפר סירקין" "KEFAR SIRKIN"</item>
+        <item>"כפר עבודה" "KEFAR AVODA"</item>
+        <item>"כפר עזה" "KEFAR AZZA"</item>
+        <item>"כפר עציון" "KEFAR EZYON"</item>
+        <item>"כפר פינס" "KEFAR PINES"</item>
+        <item>"כפר קאסם" "KAFAR QASEM"</item>
+        <item>"כפר קיש" "KEFAR KISCH"</item>
+        <item>"כפר קרע" "KAFAR QARA"</item>
+        <item>"כפר ראש הנקרה" "KEFAR ROSH HANIQRA"</item>
+        <item>"כפר רוזנואלד (זרעית)" "KEFAR ROZENWALD(ZARIT)"</item>
+        <item>"כפר רופין" "KEFAR RUPPIN"</item>
+        <item>"כפר רות" "KEFAR RUT"</item>
+        <item>"כפר שמאי" "KEFAR SHAMMAY"</item>
+        <item>"כפר שמואל" "KEFAR SHEMU'EL"</item>
+        <item>"כפר שמריהו" "KEFAR SHEMARYAHU"</item>
+        <item>"כפר תבור" "KEFAR TAVOR"</item>
+        <item>"כפר תפוח" "KEFAR TAPPUAH"</item>
+        <item>"כרכום" "KARKOM"</item>
+        <item>"כרם בן זמרה" "KEREM BEN ZIMRA"</item>
+        <item>"כרם בן שמן" "KEREM BEN SHEMEN"</item>
+        <item>"כרם יבנה (ישיבה)" "KEREM YAVNE(YESHIVA)"</item>
+        <item>"כרם מהר" "KEREM MAHARAL"</item>
+        <item>"כרם שלום" "KEREM SHALOM"</item>
+        <item>"כרמי יוסף" "KARME YOSEF"</item>
+        <item>"כרמי צור" "KARME ZUR"</item>
+        <item>"כרמיאל" "KARMI'EL"</item>
+        <item>"כרמייה" "KARMIYYA"</item>
+        <item>"כרמים" "KERAMIM"</item>
+        <item>"כרמל" "KARMEL"</item>
+        <item>"לבון" "LAVON"</item>
+        <item>"לביא" "LAVI"</item>
+        <item>"לבנים" "LIVNIM"</item>
+        <item>"להב" "LAHAV"</item>
+        <item>"להבות הבשן" "LAHAVOT HABASHAN"</item>
+        <item>"להבות חביבה" "LAHAVOT HAVIVA"</item>
+        <item>"להבים" "LEHAVIM"</item>
+        <item>"לוד" "LOD"</item>
+        <item>"לוזית" "LUZIT"</item>
+        <item>"לוחמי הגיטאות" "LOHAME HAGETA'OT"</item>
+        <item>"לוטם" "LOTEM"</item>
+        <item>"לוטן" "LOTAN"</item>
+        <item>"לימן" "LIMAN"</item>
+        <item>"לכיש" "LAKHISH"</item>
+        <item>"לפיד" "LAPPID"</item>
+        <item>"לפידות" "LAPPIDOT"</item>
+        <item>"לקיה" "LAQYE"</item>
+        <item>"מאור" "MA'OR"</item>
+        <item>"מאיר שפיה" "ME'IR SHEFEYA"</item>
+        <item>"מבוא ביתר" "MEVO BETAR"</item>
+        <item>"מבוא דותן" "MEVO DOTAN"</item>
+        <item>"מבוא חורון" "MEVO HORON"</item>
+        <item>"מבוא חמה" "MEVO HAMMA"</item>
+        <item>"מבוא מודיעים" "MEVO MODI'IM"</item>
+        <item>"מבואות ים" "MEVO'OT YAM"</item>
+        <item>"מבועים" "MABBU'IM"</item>
+        <item>"מבטחים" "MIVTAHIM"</item>
+        <item>"מבקיעים" "MAVQI'IM"</item>
+        <item>"מבשרת ציון" "MEVASSERET ZIYYON"</item>
+        <item>"מג'ד אל-כרום" "MAJD AL-KURUM"</item>
+        <item>"מג'דל שמס" "MAJDAL SHAMS"</item>
+        <item>"מגאר" "MUGHAR"</item>
+        <item>"מגדים" "MEGADIM"</item>
+        <item>"מגדל" "MIGDAL"</item>
+        <item>"מגדל העמק" "MIGDAL HAEMEQ"</item>
+        <item>"מגדל עוז" "MIGDAL OZ"</item>
+        <item>"מגדלים" "MIGDALIM"</item>
+        <item>"מגידו" "MEGIDDO"</item>
+        <item>"מגל" "MAGGAL"</item>
+        <item>"מגן" "MAGEN"</item>
+        <item>"מגן שאול" "MAGEN SHA'UL"</item>
+        <item>"מגשימים" "MAGSHIMIM"</item>
+        <item>"מדרך עוז" "MIDRAKH OZ"</item>
+        <item>"מדרשת בן גוריון" "MIDRESHET BEN GURION"</item>
+        <item>"מדרשת רופין" "MIDRESHET RUPPIN"</item>
+        <item>"מודיעין-מכבים-רעות*" "MODI'IN-MAKKABBIM-RE'UT"</item>
+        <item>"מודיעין עילית" "MODI'IN ILLIT"</item>
+        <item>"מולדה*" "MOLADA*"</item>
+        <item>"מולדת" "MOLEDET"</item>
+        <item>"מוצא עילית" "MOZA ILLIT"</item>
+        <item>"מוקייבלה" "MUQEIBLE"</item>
+        <item>"מורן" "MORAN"</item>
+        <item>"מורשת" "MORESHET"</item>
+        <item>"מזור" "MAZOR"</item>
+        <item>"מזכרת בתיה" "MAZKERET BATYA"</item>
+        <item>"מזרע" "MIZRA"</item>
+        <item>"מזרעה" "MAZRA'A"</item>
+        <item>"מחולה" "MEHOLA"</item>
+        <item>"מחנה הילה*" "MAHANE HILLA"</item>
+        <item>"מחנה טלי*" "MAHANE TALI"</item>
+        <item>"מחנה יהודית*" "MAHANE YEHUDIT"</item>
+        <item>"מחנה יוכבד*" "MAHANE YOKHEVED"</item>
+        <item>"מחנה יפה*" "MAHANE YAFA"</item>
+        <item>"מחנה יתיר" "MAHANE YATTIR"</item>
+        <item>"מחנה מרים*" "MAHANE MIRYAM"</item>
+        <item>"מחנה עדי*" "MAHANE ADI"</item>
+        <item>"מחנה תל נוף*" "MAHANE TEL NOF"</item>
+        <item>"מחניים" "MAHANAYIM"</item>
+        <item>"מחסיה" "MAHSEYA"</item>
+        <item>"מטולה" "METULA"</item>
+        <item>"מטע" "MATTA"</item>
+        <item>"מי עמי" "ME AMMI"</item>
+        <item>"מיטב" "METAV"</item>
+        <item>"מייסר" "MEISER"</item>
+        <item>"מיצר" "MEZAR"</item>
+        <item>"מירב" "MERAV"</item>
+        <item>"מירון" "MERON"</item>
+        <item>"מישר" "MESHAR"</item>
+        <item>"מיתר" "METAR"</item>
+        <item>"מכורה" "MEKHORA"</item>
+        <item>"מכחול" "MAKCHUL"</item>
+        <item>"מכמורת" "MIKHMORET"</item>
+        <item>"מכמנים" "MIKHMANNIM"</item>
+        <item>"מלאה" "MELE'A"</item>
+        <item>"מלילות" "MELILOT"</item>
+        <item>"מלכייה" "MALKIYYA"</item>
+        <item>"מלכישוע" "MALKISHUA"</item>
+        <item>"מנוחה" "MENUHA"</item>
+        <item>"מנוף" "MANOF"</item>
+        <item>"מנות" "MANOT"</item>
+        <item>"מנחמיה" "MENAHEMYA"</item>
+        <item>"מנרה" "MENARA"</item>
+        <item>"מנשית זבדה" "MANSHIYYET ZABDA"</item>
+        <item>"מסד" "MASSAD"</item>
+        <item>"מסדה" "MASSADA"</item>
+        <item>"מסילות" "MESILLOT"</item>
+        <item>"מסילת ציון" "MESILLAT ZIYYON"</item>
+        <item>"מסלול" "MASLUL"</item>
+        <item>"מסעדה" "MAS'ADE"</item>
+        <item>"מסעודין אל-עזאזמה (שבט)" "MAS'UDIN AL-'AZAZME"</item>
+        <item>"מעברות" "MA'BAROT"</item>
+        <item>"מעגלים" "MA'GALIM"</item>
+        <item>"מעגן" "MA'AGAN"</item>
+        <item>"מעגן מיכאל" "MA'AGAN MIKHA'EL"</item>
+        <item>"מעוז חיים" "MA'OZ HAYYIM"</item>
+        <item>"מעון" "MA'ON"</item>
+        <item>"מעונה" "ME'ONA"</item>
+        <item>"מעיין ברוך" "MA'YAN BARUKH"</item>
+        <item>"מעיין צבי" "MA'YAN ZEVI"</item>
+        <item>"מעיליא" "MI'ELYA"</item>
+        <item>"מעלה אדומים" "MA'ALE ADUMMIM"</item>
+        <item>"מעלה אפרים" "MA'ALE EFRAYIM"</item>
+        <item>"מעלה גלבוע" "MA'ALE GILBOA"</item>
+        <item>"מעלה גמלא" "MA'ALE GAMLA"</item>
+        <item>"מעלה החמישה" "MA'ALE HAHAMISHA"</item>
+        <item>"מעלה לבונה" "MA'ALE LEVONA"</item>
+        <item>"מעלה מכמש" "MA'ALE MIKHMAS"</item>
+        <item>"מעלה עירון" "MA'ALE IRON"</item>
+        <item>"מעלה עמוס" "MA'ALE AMOS"</item>
+        <item>"מעלה שומרון" "MA'ALE SHOMERON"</item>
+        <item>"מעלות-תרשיחא" "MA'ALOT-TARSHIHA"</item>
+        <item>"מענית" "MA'ANIT"</item>
+        <item>"מעש" "MA'AS"</item>
+        <item>"מפלסים" "MEFALLESIM"</item>
+        <item>"מצדות יהודה" "MEZADOT YEHUDA"</item>
+        <item>"מצובה" "MAZZUVA"</item>
+        <item>"מצליח" "MAZLIAH"</item>
+        <item>"מצפה" "MIZPA"</item>
+        <item>"מצפה אבי" "MIZPE AVIV"</item>
+        <item>"מצפה אילן" "MITSPE ILAN"</item>
+        <item>"מצפה יריחו" "MIZPE YERIHO"</item>
+        <item>"מצפה נטופה" "MIZPE NETOFA"</item>
+        <item>"מצפה רמון" "MIZPE RAMON"</item>
+        <item>"מצפה שלם" "MIZPE SHALEM"</item>
+        <item>"מצר" "MEZER"</item>
+        <item>"מקווה ישראל" "MIQWE YISRA'EL"</item>
+        <item>"מרגליות" "MARGALIYYOT"</item>
+        <item>"מרום גולן" "MEROM GOLAN"</item>
+        <item>"מרחב עם" "MERHAV AM"</item>
+        <item>"מרחביה (מושב)" "MERHAVYA(MOSHAV)"</item>
+        <item>"מרחביה (קיבוץ)" "MERHAVYA(QIBBUZ)"</item>
+        <item>"מרכז שפירא" "MERKAZ SHAPPIRA"</item>
+        <item>"משאבי שדה" "MASH'ABBE SADE"</item>
+        <item>"משגב דב" "MISGAV DOV"</item>
+        <item>"משגב עם" "MISGAV AM"</item>
+        <item>"משהד" "MESHHED"</item>
+        <item>"משואה" "MASSU'A"</item>
+        <item>"משואות יצחק" "MASSU'OT YIZHAQ"</item>
+        <item>"משכיות" "MASKIYYOT"</item>
+        <item>"משמר איילון" "MISHMAR AYYALON"</item>
+        <item>"משמר דוד" "MISHMAR DAWID"</item>
+        <item>"משמר הירדן" "MISHMAR HAYARDEN"</item>
+        <item>"משמר הנגב" "MISHMAR HANEGEV"</item>
+        <item>"משמר העמק" "MISHMAR HAEMEQ"</item>
+        <item>"משמר השבעה" "MISHMAR HASHIV'A"</item>
+        <item>"משמר השרון" "MISHMAR HASHARON"</item>
+        <item>"משמרות" "MISHMAROT"</item>
+        <item>"משמרת" "MISHMERET"</item>
+        <item>"משען" "MASH'EN"</item>
+        <item>"מתן" "MATTAN"</item>
+        <item>"מתת" "MATTAT"</item>
+        <item>"מתתיהו" "MATTITYAHU"</item>
+        <item>"נאות גולן" "NE'OT GOLAN"</item>
+        <item>"נאות הכיכר" "NE'OT HAKIKKAR"</item>
+        <item>"נאות מרדכי" "NE'OT MORDEKHAY"</item>
+        <item>"נאות סמדר" "NE'OT SMADAR"</item>
+        <item>"נאעורה" "NA'URA"</item>
+        <item>"נבטים" "NEVATIM"</item>
+        <item>"נגבה" "NEGBA"</item>
+        <item>"נגוהות" "NEGOHOT"</item>
+        <item>"נהורה" "NEHORA"</item>
+        <item>"נהלל" "NAHALAL"</item>
+        <item>"נהרייה" "NAHARIYYA"</item>
+        <item>"נוב" "NOV"</item>
+        <item>"נוגה" "NOGAH"</item>
+        <item>"נווה" "NAVE"</item>
+        <item>"נווה אבות" "NEWE AVOT"</item>
+        <item>"נווה אור" "NEWE UR"</item>
+        <item>"נווה אטי" "NEWE ATIV"</item>
+        <item>"נווה אילן" "NEWE ILAN"</item>
+        <item>"נווה איתן" "NEWE ETAN"</item>
+        <item>"נווה דניאל" "NEWE DANIYYEL"</item>
+        <item>"נווה זוהר" "NEWE ZOHAR"</item>
+        <item>"נווה זיו" "NEWE ZIV"</item>
+        <item>"נווה חריף" "NEWE HARIF"</item>
+        <item>"נווה ים" "NEWE YAM"</item>
+        <item>"נווה ימין" "NEWE YAMIN"</item>
+        <item>"נווה ירק" "NEWE YARAQ"</item>
+        <item>"נווה מבטח" "NEWE MIVTAH"</item>
+        <item>"נווה מיכאל" "NEWE MIKHA'EL"</item>
+        <item>"נווה שלום" "NEWE SHALOM"</item>
+        <item>"נועם" "NO'AM"</item>
+        <item>"נוף איילון" "NOF AYYALON"</item>
+        <item>"נופים" "NOFIM"</item>
+        <item>"נופית" "NOFIT"</item>
+        <item>"נופך" "NOFEKH"</item>
+        <item>"נוקדים" "NOQEDIM"</item>
+        <item>"נורדייה" "NORDIYYA"</item>
+        <item>"נורית" "NURIT"</item>
+        <item>"נחושה" "NEHUSHA"</item>
+        <item>"נחל עוז" "NAHAL OZ"</item>
+        <item>"נחלה" "NAHALA"</item>
+        <item>"נחליאל" "NAHALI'EL"</item>
+        <item>"נחלים" "NEHALIM"</item>
+        <item>"נחם" "NAHAM"</item>
+        <item>"נחף" "NAHEF"</item>
+        <item>"נחשולים" "NAHSHOLIM"</item>
+        <item>"נחשון" "NAHSHON"</item>
+        <item>"נחשונים" "NAHSHONIM"</item>
+        <item>"נטועה" "NETU'A"</item>
+        <item>"נטור" "NATUR"</item>
+        <item>"נטע" "NETA"</item>
+        <item>"נטעים" "NETA'IM"</item>
+        <item>"נטף" "NATAF"</item>
+        <item>"ניין" "NEIN"</item>
+        <item>"ניל" "NILI"</item>
+        <item>"ניצן" "NIZZAN"</item>
+        <item>"ניצן ב'" "NIZZAN B"</item>
+        <item>"ניצנה (קהילת חינוך)" "NIZZANA (QEHILAT HINUH)"</item>
+        <item>"ניצני סיני" "NIZZANE SINAY"</item>
+        <item>"ניצני עוז" "NIZZANE OZ"</item>
+        <item>"ניצנים" "NIZZANIM"</item>
+        <item>"ניר אליהו" "NIR ELIYYAHU"</item>
+        <item>"ניר בנים" "NIR BANIM"</item>
+        <item>"ניר גלים" "NIR GALLIM"</item>
+        <item>"ניר דוד (תל עמל)" "NIR DAWID (TEL AMAL)"</item>
+        <item>"ניר ח" "NIR HEN"</item>
+        <item>"ניר יפה" "NIR YAFE"</item>
+        <item>"ניר יצחק" "NIR YIZHAQ"</item>
+        <item>"ניר ישראל" "NIR YISRA'EL"</item>
+        <item>"ניר משה" "NIR MOSHE"</item>
+        <item>"ניר עוז" "NIR OZ"</item>
+        <item>"ניר עם" "NIR AM"</item>
+        <item>"ניר עציון" "NIR EZYON"</item>
+        <item>"ניר עקיבא" "NIR AQIVA"</item>
+        <item>"ניר צבי" "NIR ZEVI"</item>
+        <item>"נירים" "NIRIM"</item>
+        <item>"נירית" "NIRIT"</item>
+        <item>"נירן" "NIRAN"</item>
+        <item>"נס הרים" "NES HARIM"</item>
+        <item>"נס עמים" "NES AMMIM"</item>
+        <item>"נס ציונה" "NES ZIYYONA"</item>
+        <item>"נעורים" "NE'URIM"</item>
+        <item>"נעלה" "NA'ALE"</item>
+        <item>"נעמ" "NA'AMA"</item>
+        <item>"נען" "NA'AN"</item>
+        <item>"נצאצרה (שבט)" "NASASRA"</item>
+        <item>"נצר חזני" "NEZER HAZZANI"</item>
+        <item>"נצר סרני" "NEZER SERENI"</item>
+        <item>"נצרת" "NAZARETH"</item>
+        <item>"נצרת עילית" "NAZERAT ILLIT"</item>
+        <item>"נשר" "NESHER"</item>
+        <item>"נתיב הגדוד" "NETIV HAGEDUD"</item>
+        <item>"נתיב הל" "NETIV HALAMED-HE"</item>
+        <item>"נתיב העשרה" "NETIV HAASARA"</item>
+        <item>"נתיב השיירה" "NETIV HASHAYYARA"</item>
+        <item>"נתיבות" "NETIVOT"</item>
+        <item>"נתניה" "NETANYA"</item>
+        <item>"סאג'ור" "SAJUR"</item>
+        <item>"סאסא" "SASA"</item>
+        <item>"סביון*" "SAVYON"</item>
+        <item>"סגולה" "SEGULLA"</item>
+        <item>"סואעד (חמרייה)*" "SAWA'ID(HAMRIYYE)"</item>
+        <item>"סואעד (כמאנה) (שבט)" "SAWA'ID (KAMANE)"</item>
+        <item>"סולם" "SULAM"</item>
+        <item>"סוסיה" "SUSEYA"</item>
+        <item>"סופה" "SUFA"</item>
+        <item>"סח'נין" "SAKHNIN"</item>
+        <item>"סייד (שבט)" "SAYYID"</item>
+        <item>"סלמה" "SALLAMA"</item>
+        <item>"סלעית" "SAL'IT"</item>
+        <item>"סמר" "SAMAR"</item>
+        <item>"סנסנה" "SANSANA"</item>
+        <item>"סעד" "SA'AD"</item>
+        <item>"סער" "SA'AR"</item>
+        <item>"ספיר" "SAPPIR"</item>
+        <item>"סתרייה" "SITRIYYA"</item>
+        <item>"ע'ג'ר" "GHAJAR"</item>
+        <item>"עבדון" "AVDON"</item>
+        <item>"עברון" "EVRON"</item>
+        <item>"עגור" "AGUR"</item>
+        <item>"עדי" "ADI"</item>
+        <item>"עדנים" "ADANIM"</item>
+        <item>"עוזה" "UZA"</item>
+        <item>"עוזייר" "UZEIR"</item>
+        <item>"עולש" "OLESH"</item>
+        <item>"עומר" "OMER"</item>
+        <item>"עופר" "OFER"</item>
+        <item>"עוצם" "OZEM"</item>
+        <item>"עוקבי (בנו עוקבה) (שבט)" "UQBI (BANU UQBA)"</item>
+        <item>"עזוז" "EZUZ"</item>
+        <item>"עזר" "EZER"</item>
+        <item>"עזריאל" "AZRI'EL"</item>
+        <item>"עזריה" "AZARYA"</item>
+        <item>"עזריקם" "AZRIQAM"</item>
+        <item>"עטאוונה (שבט)" "ATAWNE"</item>
+        <item>"עטרת" "ATERET"</item>
+        <item>"עידן" "IDDAN"</item>
+        <item>"עיילבון" "EILABUN"</item>
+        <item>"עיינות" "AYANOT"</item>
+        <item>"עילוט" "ILUT"</item>
+        <item>"עין איילה" "EN AYYALA"</item>
+        <item>"עין אל-אסד" "EIN AL-ASAD"</item>
+        <item>"עין גב" "EN GEV"</item>
+        <item>"עין גדי" "EN GEDI"</item>
+        <item>"עין דור" "EN DOR"</item>
+        <item>"עין הבשור" "EN HABESOR"</item>
+        <item>"עין הוד" "EN HOD"</item>
+        <item>"עין החורש" "EN HAHORESH"</item>
+        <item>"עין המפרץ" "EN HAMIFRAZ"</item>
+        <item>"עין הנצי" "EN HANAZIV"</item>
+        <item>"עין העמק" "EN HAEMEQ"</item>
+        <item>"עין השופט" "EN HASHOFET"</item>
+        <item>"עין השלושה" "EN HASHELOSHA"</item>
+        <item>"עין ורד" "EN WERED"</item>
+        <item>"עין זיוון" "EN ZIWAN"</item>
+        <item>"עין חוד" "EIN HOD"</item>
+        <item>"עין חצבה" "EN HAZEVA"</item>
+        <item>"עין חרוד (איחוד)" "EN HAROD (IHUD)"</item>
+        <item>"עין חרוד (מאוחד)" "EN HAROD(ME'UHAD)"</item>
+        <item>"עין יהב" "EN YAHAV"</item>
+        <item>"עין יעקב" "EN YA'AQOV"</item>
+        <item>"עין כרם-בי" "EN KAREM-B.S.HAQLA'I"</item>
+        <item>"עין כרמל" "EN KARMEL"</item>
+        <item>"עין מאהל" "EIN MAHEL"</item>
+        <item>"עין נקובא" "EIN NAQQUBA"</item>
+        <item>"עין עירון" "EN IRON"</item>
+        <item>"עין צורים" "EN ZURIM"</item>
+        <item>"עין קנייא" "EIN QINIYYE"</item>
+        <item>"עין ראפה" "EIN RAFA"</item>
+        <item>"עין שמר" "EN SHEMER"</item>
+        <item>"עין שריד" "EN SARID"</item>
+        <item>"עין תמר" "EN TAMAR"</item>
+        <item>"עינת" "ENAT"</item>
+        <item>"עיר אובות" "IR OVOT"</item>
+        <item>"עכו" "AKKO"</item>
+        <item>"עלומים" "ALUMIM"</item>
+        <item>"עלי" "ELI"</item>
+        <item>"עלי זהב" "ALE ZAHAV"</item>
+        <item>"עלמה" "ALMA"</item>
+        <item>"עלמון" "ALMON"</item>
+        <item>"עמוקה" "AMUQQA"</item>
+        <item>"עמינדב" "AMMINADAV"</item>
+        <item>"עמיעד" "AMMI'AD"</item>
+        <item>"עמיעוז" "AMMI'OZ"</item>
+        <item>"עמיקם" "AMMIQAM"</item>
+        <item>"עמיר" "AMIR"</item>
+        <item>"עמנואל" "IMMANU'EL"</item>
+        <item>"עמקה" "AMQA"</item>
+        <item>"ענב" "ENAV"</item>
+        <item>"עספיא" "ISIFYA"</item>
+        <item>"עפולה" "AFULA"</item>
+        <item>"עפרה" "OFRA"</item>
+        <item>"עץ אפרים" "EZ EFRAYIM"</item>
+        <item>"עצמון שגב" "ATSMON SEGEV"</item>
+        <item>"עראבה" "ARRABE"</item>
+        <item>"עראמשה*" "ARAMSHA"</item>
+        <item>"ערב אל נעים" "ARAB AL NAIM"</item>
+        <item>"ערד" "ARAD"</item>
+        <item>"ערוגות" "ARUGOT"</item>
+        <item>"ערערה" "AR'ARA"</item>
+        <item>"ערערה-בנגב" "AR'ARA-BANEGEV"</item>
+        <item>"עשרת" "ASERET"</item>
+        <item>"עתלית" "ATLIT"</item>
+        <item>"עתניאל" "OTNI'EL"</item>
+        <item>"פארן" "PARAN"</item>
+        <item>"פדואל" "PEDU'EL"</item>
+        <item>"פדויים" "PEDUYIM"</item>
+        <item>"פדיה" "PEDAYA"</item>
+        <item>"פוריידיס" "FUREIDIS"</item>
+        <item>"פורייה - כפר עבודה" "PORIYYA-KEFAR AVODA"</item>
+        <item>"פורייה - נווה עובד" "PORIYYA-NEWE OVED"</item>
+        <item>"פורייה עילית" "PORIYYA ILLIT"</item>
+        <item>"פורת" "PORAT"</item>
+        <item>"פטיש" "PATTISH"</item>
+        <item>"פלך" "PELEKH"</item>
+        <item>"פלמחים" "PALMAHIM"</item>
+        <item>"פני חבר" "PENE HEVER"</item>
+        <item>"פסגות" "PESAGOT"</item>
+        <item>"פסוטה" "FASSUTA"</item>
+        <item>"פעמי תש" "PA'AME TASHAZ"</item>
+        <item>"פצאל" "PEZA'EL"</item>
+        <item>"פקיעין (בוקייעה)" "PEQI'IN (BUQEI'A)"</item>
+        <item>"פקיעין חדשה" "PEQI'IN HADASHA"</item>
+        <item>"פרדס חנה-כרכור" "PARDES HANNA-KARKUR"</item>
+        <item>"פרדסייה" "PARDESIYYA"</item>
+        <item>"פרוד" "PAROD"</item>
+        <item>"פרזון" "PERAZON"</item>
+        <item>"פרי גן" "PERI GAN"</item>
+        <item>"פתח תקווה" "PETAH TIQWA"</item>
+        <item>"פתחיה" "PETAHYA"</item>
+        <item>"צאלים" "ZE'ELIM"</item>
+        <item>"צביה" "ZVIYYA"</item>
+        <item>"צבעון" "ZIV'ON"</item>
+        <item>"צובה" "ZOVA"</item>
+        <item>"צוחר" "ZOHAR"</item>
+        <item>"צופייה" "ZOFIYYA"</item>
+        <item>"צופים" "ZUFIM"</item>
+        <item>"צופית" "ZOFIT"</item>
+        <item>"צופר" "ZOFAR"</item>
+        <item>"צוקי ים" "ZUQI YAM"</item>
+        <item>"צוקים" "ZUQIM"</item>
+        <item>"צור הדסה" "ZUR HADASSA"</item>
+        <item>"צור יצחק" "ZUR YIZHAQ"</item>
+        <item>"צור משה" "ZUR MOSHE"</item>
+        <item>"צור נתן" "ZUR NATAN"</item>
+        <item>"צוריאל" "ZURI'EL"</item>
+        <item>"צורית" "ZURIT"</item>
+        <item>"ציפורי" "ZIPPORI"</item>
+        <item>"צלפון" "ZELAFON"</item>
+        <item>"צנדלה" "SANDALA"</item>
+        <item>"צפרייה" "ZAFRIYYA"</item>
+        <item>"צפרירים" "ZAFRIRIM"</item>
+        <item>"צפת" "ZEFAT"</item>
+        <item>"צרופה" "ZERUFA"</item>
+        <item>"צרעה" "ZOR'A"</item>
+        <item>"קבועה (שבט)" "QABBO'A"</item>
+        <item>"קבוצת יבנה" "QEVUZAT YAVNE"</item>
+        <item>"קדומים" "QEDUMIM"</item>
+        <item>"קדימה-צורן" "QADIMA-ZORAN"</item>
+        <item>"קדמה" "QEDMA"</item>
+        <item>"קדמת צבי" "QIDMAT ZEVI"</item>
+        <item>"קדר" "QEDAR"</item>
+        <item>"קדרון" "QIDRON"</item>
+        <item>"קדרים" "QADDARIM"</item>
+        <item>"קודייראת א-צאנע (שבט)" "QUDEIRAT AS-SANI"</item>
+        <item>"קוואעין (שבט)" "QAWA'IN"</item>
+        <item>"קוממיות" "QOMEMIYYUT"</item>
+        <item>"קורנית" "QORANIT"</item>
+        <item>"קטורה" "QETURA"</item>
+        <item>"קיסריה" "CAESAREA"</item>
+        <item>"קלחים" "QELAHIM"</item>
+        <item>"קליה" "QALYA"</item>
+        <item>"קלנסווה" "QALANSAWE"</item>
+        <item>"קלע" "QELA"</item>
+        <item>"קציר " "KATZIR "</item>
+        <item>"קצר א-סר" "QASR A-SIR"</item>
+        <item>"קצרין" "QAZRIN"</item>
+        <item>"קריית אונו" "QIRYAT ONO"</item>
+        <item>"קריית ארבע" "QIRYAT ARBA"</item>
+        <item>"קריית אתא" "QIRYAT ATTA"</item>
+        <item>"קריית ביאליק" "QIRYAT BIALIK"</item>
+        <item>"קריית גת" "QIRYAT GAT"</item>
+        <item>"קריית טבעון" "QIRYAT TIV'ON"</item>
+        <item>"קריית ים" "QIRYAT YAM"</item>
+        <item>"קריית יערים" "QIRYAT YE'ARIM"</item>
+        <item>"קריית יערים (מוסד)" "QIRYAT YE'ARIM(INSTITUTE)"</item>
+        <item>"קריית מוצקין" "QIRYAT MOTZKIN"</item>
+        <item>"קריית מלאכי" "QIRYAT MAL'AKHI"</item>
+        <item>"קריית נטפים" "QIRYAT NETAFIM"</item>
+        <item>"קריית ענבים" "QIRYAT ANAVIM"</item>
+        <item>"קריית עקרון" "QIRYAT EQRON"</item>
+        <item>"קריית שלמה" "QIRYAT SHELOMO"</item>
+        <item>"קריית שמונה" "QIRYAT SHEMONA"</item>
+        <item>"קרני שומרון" "QARNE SHOMERON"</item>
+        <item>"קשת" "QESHET"</item>
+        <item>"ראמה" "RAME"</item>
+        <item>"ראס אל-עין" "RAS AL-EIN"</item>
+        <item>"ראס עלי" "RAS ALI"</item>
+        <item>"ראש העין" "ROSH HAAYIN"</item>
+        <item>"ראש פינה" "ROSH PINNA"</item>
+        <item>"ראש צורים" "ROSH ZURIM"</item>
+        <item>"ראשון לציון" "RISHON LEZIYON"</item>
+        <item>"רבבה" "REVAVA"</item>
+        <item>"רבדים" "REVADIM"</item>
+        <item>"רביבים" "REVIVIM"</item>
+        <item>"רביד" "RAVID"</item>
+        <item>"רגבה" "REGBA"</item>
+        <item>"רגבים" "REGAVIM"</item>
+        <item>"רהט" "RAHAT"</item>
+        <item>"רווחה" "REWAHA"</item>
+        <item>"רוויה" "REWAYA"</item>
+        <item>"רוח מדבר" "RUAH MIDBAR"</item>
+        <item>"רוחמה" "RUHAMA"</item>
+        <item>"רומאנה" "RUMMANE"</item>
+        <item>"רומת הייב" "RUMAT HEIB"</item>
+        <item>"רועי" "RO'I"</item>
+        <item>"רותם" "ROTEM"</item>
+        <item>"רחוב" "REHOV"</item>
+        <item>"רחובות" "REHOVOT"</item>
+        <item>"רחלים" "REHELIM"</item>
+        <item>"ריחאנייה" "REIHANIYYE"</item>
+        <item>"ריחן" "REHAN"</item>
+        <item>"ריינה" "REINE"</item>
+        <item>"רימונים" "RIMMONIM"</item>
+        <item>"רינתיה" "RINNATYA"</item>
+        <item>"רכסים" "REKHASIM"</item>
+        <item>"רם-און" "RAM-ON"</item>
+        <item>"רמות" "RAMOT"</item>
+        <item>"רמות השבים" "RAMOT HASHAVIM"</item>
+        <item>"רמות מאיר" "RAMOT ME'IR"</item>
+        <item>"רמות מנשה" "RAMOT MENASHE"</item>
+        <item>"רמות נפתלי" "RAMOT NAFTALI"</item>
+        <item>"רמלה" "RAMLA"</item>
+        <item>"רמת גן" "RAMAT GAN"</item>
+        <item>"רמת דוד" "RAMAT DAWID"</item>
+        <item>"רמת הכובש" "RAMAT HAKOVESH"</item>
+        <item>"רמת השופט" "RAMAT HASHOFET"</item>
+        <item>"רמת השרון" "RAMAT HASHARON"</item>
+        <item>"רמת יוחנן" "RAMAT YOHANAN"</item>
+        <item>"רמת ישי" "RAMAT YISHAY"</item>
+        <item>"רמת מגשימים" "RAMAT MAGSHIMIM"</item>
+        <item>"רמת צבי" "RAMAT ZEVI"</item>
+        <item>"רמת רזיאל" "RAMAT RAZI'EL"</item>
+        <item>"רמת רחל" "RAMAT RAHEL"</item>
+        <item>"רנן" "RANNEN"</item>
+        <item>"רעים" "RE'IM"</item>
+        <item>"רעננה" "RA'ANNANA"</item>
+        <item>"רקפת" "RAQQEFET"</item>
+        <item>"רשפון" "RISHPON"</item>
+        <item>"רשפים" "RESHAFIM"</item>
+        <item>"רתמים" "RETAMIM"</item>
+        <item>"שאר ישוב" "SHE'AR YASHUV"</item>
+        <item>"שבי ציון" "SHAVE ZIYYON"</item>
+        <item>"שבי שומרון" "SHAVE SHOMERON"</item>
+        <item>"שבלי - אום אל-גנם" "SHIBLI-UMM AL-GHANAM"</item>
+        <item>"שגב-שלום" "SEGEV-SHALOM"</item>
+        <item>"שדה אילן" "SEDE ILAN"</item>
+        <item>"שדה אליהו" "SEDE ELIYYAHU"</item>
+        <item>"שדה אליעזר" "SEDE ELI'EZER"</item>
+        <item>"שדה בוקר" "SEDE BOQER"</item>
+        <item>"שדה דוד" "SEDE DAWID"</item>
+        <item>"שדה ורבורג" "SEDE WARBURG"</item>
+        <item>"שדה יואב" "SEDE YO'AV"</item>
+        <item>"שדה יעקב" "SEDE YA'AQOV"</item>
+        <item>"שדה יצחק" "SEDE YIZHAQ"</item>
+        <item>"שדה משה" "SEDE MOSHE"</item>
+        <item>"שדה נחום" "SEDE NAHUM"</item>
+        <item>"שדה נחמיה" "SEDE NEHEMYA"</item>
+        <item>"שדה ניצן" "SEDE NIZZAN"</item>
+        <item>"שדה עוזיהו" "SEDE UZZIYYAHU"</item>
+        <item>"שדה צבי" "SEDE ZEVI"</item>
+        <item>"שדות ים" "SEDOT YAM"</item>
+        <item>"שדות מיכה" "SEDOT MIKHA"</item>
+        <item>"שדי אברהם" "SEDE AVRAHAM"</item>
+        <item>"שדי חמד" "SEDE HEMED"</item>
+        <item>"שדי תרומות" "SEDE TERUMOT"</item>
+        <item>"שדמה" "SHEDEMA"</item>
+        <item>"שדמות דבורה" "SHADMOT DEVORA"</item>
+        <item>"שדמות מחולה" "SHADMOT MEHOLA"</item>
+        <item>"שדרות" "SEDEROT"</item>
+        <item>"שואבה" "SHO'EVA"</item>
+        <item>"שובה" "SHUVA"</item>
+        <item>"שובל" "SHOVAL"</item>
+        <item>"שוהם" "SHOHAM"</item>
+        <item>"שומרה" "SHOMERA"</item>
+        <item>"שומרייה" "SHOMERIYYA"</item>
+        <item>"שוקדה" "SHOQEDA"</item>
+        <item>"שורש" "SHORESH"</item>
+        <item>"שורשים" "SHORASHIM"</item>
+        <item>"שושנת העמקים" "SHOSHANNAT HAAMAQIM"</item>
+        <item>"שזור" "SHEZOR"</item>
+        <item>"שחר" "SHAHAR"</item>
+        <item>"שחרות" "SHAHARUT"</item>
+        <item>"שיבולים" "SHIBBOLIM"</item>
+        <item>"שיטים" "SHITTIM"</item>
+        <item>"שייח' דנון" "SHEIKH DANNUN"</item>
+        <item>"שילה" "SHILO"</item>
+        <item>"שילת" "SHILAT"</item>
+        <item>"שכניה" "SHEKHANYA"</item>
+        <item>"שלווה" "SHALWA"</item>
+        <item>"שלווה במדבר" "SHALVA BAMIDBAR"</item>
+        <item>"שלוחות" "SHELUHOT"</item>
+        <item>"שלומי" "SHELOMI"</item>
+        <item>"שלומית" "SHLOMIT"</item>
+        <item>"שמיר" "SHAMIR"</item>
+        <item>"שמעה" "SHIM'A"</item>
+        <item>"שמרת" "SHAMERAT"</item>
+        <item>"שמשית" "SHIMSHIT"</item>
+        <item>"שני" "SHANI"</item>
+        <item>"שניר" "SENIR"</item>
+        <item>"שעב" "SHA'AB"</item>
+        <item>"שעל" "SHA'AL"</item>
+        <item>"שעלבים" "SHA'ALVIM"</item>
+        <item>"שער אפרים" "SHA'AR EFRAYIM"</item>
+        <item>"שער הגולן" "SHA'AR HAGOLAN"</item>
+        <item>"שער העמקים" "SHA'AR HAAMAQIM"</item>
+        <item>"שער מנשה" "SHA'AR MENASHE"</item>
+        <item>"שערי תקווה" "SHA'ARE TIQWA"</item>
+        <item>"שפיים" "SHEFAYIM"</item>
+        <item>"שפיר" "SHAFIR"</item>
+        <item>"שפר" "SHEFER"</item>
+        <item>"שפרעם" "SHEFAR'AM"</item>
+        <item>"שקד" "SHAQED"</item>
+        <item>"שקף" "SHEQEF"</item>
+        <item>"שרונה" "SHARONA"</item>
+        <item>"שריגים (לי-און)" "SARIGIM (LI-ON)"</item>
+        <item>"שריד" "SARID"</item>
+        <item>"שרשרת" "SHARSHERET"</item>
+        <item>"שתולה" "SHETULA"</item>
+        <item>"שתולים" "SHETULIM"</item>
+        <item>"תאשור" "TE'ASHUR"</item>
+        <item>"תדהר" "TIDHAR"</item>
+        <item>"תובל" "TUVAL"</item>
+        <item>"תומר" "TOMER"</item>
+        <item>"תושייה" "TUSHIYYA"</item>
+        <item>"תימורים" "TIMMORIM"</item>
+        <item>"תירוש" "TIROSH"</item>
+        <item>"תל אביב -יפו" "TEL AVIV - YAFO"</item>
+        <item>"תל יוסף" "TEL YOSEF"</item>
+        <item>"תל יצחק" "TEL YIZHAQ"</item>
+        <item>"תל מונד" "TEL MOND"</item>
+        <item>"תל עדשים" "TEL ADASHIM"</item>
+        <item>"תל קציר" "TEL QAZIR"</item>
+        <item>"תל שבע" "TEL SHEVA"</item>
+        <item>"תל תאומים" "TEL TE'OMIM"</item>
+        <item>"תלם" "TELEM"</item>
+        <item>"תלמי אליהו" "TALME ELIYYAHU"</item>
+        <item>"תלמי אלעזר" "TALME EL'AZAR"</item>
+        <item>"תלמי ביל" "TALME BILU"</item>
+        <item>"תלמי יוסף" "TALME YOSEF"</item>
+        <item>"תלמי יחיאל" "TALME YEHI'EL"</item>
+        <item>"תלמי יפה" "TALME YAFE"</item>
+        <item>"תלמים" "TELAMIM"</item>
+        <item>"תמרת" "TIMRAT"</item>
+        <item>"תנובות" "TENUVOT"</item>
+        <item>"תעוז" "TA'OZ"</item>
+        <item>"תפרח" "TIFRAH"</item>
+        <item>"תקומה" "TEQUMA"</item>
+        <item>"תקוע" "TEQOA"</item>
+        <item>"תראבין א-צאנע (שבט)" "TARABIN AS-SANI"</item>
+        <item>"תרבין א-צאנע (יישוב)*" "TARABIN AS-SANI"</item>
+        <item>"תרום" "TARUM"}</item>
+
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MyItemActivity">
+
+    <TextView
+        android:id="@+id/AddressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Address:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/AddressTitle"
+        app:layout_constraintTop_toTopOf="@+id/AddressTitle" />
+
+    <TextView
+        android:id="@+id/checkInTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Check In:"
+        app:layout_constraintStart_toStartOf="@+id/AddressTitle"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTitle" />
+
+    <TextView
+        android:id="@+id/checkOutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Check Out:"
+        app:layout_constraintStart_toStartOf="@+id/checkInTitle"
+        app:layout_constraintTop_toBottomOf="@+id/checkInTitle" />
+
+    <TextView
+        android:id="@+id/guestNumberTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Guest Number:"
+        app:layout_constraintStart_toStartOf="@+id/checkOutTitle"
+        app:layout_constraintTop_toBottomOf="@+id/checkOutTitle" />
+
+    <TextView
+        android:id="@+id/flagsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Flags:"
+        app:layout_constraintStart_toStartOf="@+id/guestNumberTitle"
+        app:layout_constraintTop_toBottomOf="@+id/guestNumberTitle" />
+
+    <TextView
+        android:id="@+id/requestTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Requests:"
+        app:layout_constraintStart_toStartOf="@+id/flagsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/flags" />
+
+    <TextView
+        android:id="@+id/checkIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/checkInTitle"
+        app:layout_constraintTop_toTopOf="@+id/checkInTitle" />
+
+    <TextView
+        android:id="@+id/checkOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/checkOutTitle"
+        app:layout_constraintTop_toTopOf="@+id/checkOutTitle" />
+
+    <TextView
+        android:id="@+id/guestNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/guestNumberTitle"
+        app:layout_constraintTop_toTopOf="@+id/guestNumberTitle" />
+
+    <TextView
+        android:id="@+id/flags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/flagsTitle"
+        app:layout_constraintTop_toTopOf="@+id/flagsTitle" />
+    <ListView
+        android:id="@+id/requestListView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestTitle" />
+
+    <Button
+        android:id="@+id/UpdateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="updateItem"
+        android:text="Update Item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/requestListView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

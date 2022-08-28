@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "961251979149",
+    "project_id": "rhomie-d413c",
+    "storage_bucket": "rhomie-d413c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961251979149:android:1a1da19a283c01469057c4",
+        "android_client_info": {
+          "package_name": "com.example.rhomie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961251979149-74afhib4j38morr0ue994p4t19ip32ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9blYyQO8ctw5K4enMe7z5fUOFprzeI_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961251979149-74afhib4j38morr0ue994p4t19ip32ml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
